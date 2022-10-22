@@ -1,0 +1,12 @@
+[package]
+name = "nwnx4-lib-cplugin-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4.17"
+flexi_logger = "0.24.0"
+git-version = "0.3.5"
+nwnx4-lib-cplugin-rs = { path = "../" }
