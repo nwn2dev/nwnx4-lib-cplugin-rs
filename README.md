@@ -7,6 +7,9 @@ Provides a safe interface for writing CPlugins in Rust
 
 `Cargo.toml`
 ```toml
+[lib]
+crate-type = ["cdylib"]
+
 [dependencies]
 log = "0.4.17"
 nwnx4-lib-cplugin-rs = { git = "https://github.com/nwn2dev/nwnx4-lib-cplugin-rs.git" }
